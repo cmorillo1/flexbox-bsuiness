@@ -1,0 +1,236 @@
+/* Universal Styles */ 
+
+html {
+    font-family: 'Poppins' sans-serif;
+    font-size: 16px;
+}
+
+/* Header Section */
+
+header .content {
+    display: flex;
+    align-items: center;
+    padding: 1.875rem;
+    height: 45px;
+    width: auto;
+    border-bottom: 1px solid #4a4a4a;
+}
+
+header .logo {
+    flex: 1;
+    font-size: 1.8rem;
+    color: #4a4a4a;
+}
+
+.business {
+   font-size: 1.1rem;
+   padding-right: 1rem;
+}
+
+
+nav ul {
+    display: flex;
+    line-height: 1.6;
+}
+
+ul li {
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    color: #4a4a4a;
+}
+
+/* Main Section */ 
+
+#main-content {
+    height: 38rem;
+    width: 100%;
+    background-image: url("/resources/images/damian-zaleski-RYyr-k3Ysqg-unsplash.jpg");
+    background-size: cover; 
+    z-index: -1;
+}
+
+#small-container{
+    display: flex;
+    align-items: center;
+    float: right;
+    flex-direction: column;
+    position: relative;
+    top: 50%;
+    justify-content: space-around;
+    height: 5rem;
+}
+
+.cursive {
+    font-family: 'Playwrite Peru';
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+.stretch {
+    font-size: 1.3rem;
+}
+
+/* Porfolio Section */ 
+
+.heading {
+    display: flex;
+    font-size: 2.5rem;
+    padding-left: 38rem;
+    margin-bottom: 1.25rem;
+    color: #4a4a4a;  
+}
+
+#projects {
+    margin-top: 4.25rem;
+}
+
+#projects .portfolio {
+    display: grid;
+    width: 100%;
+    height: 720px;
+    gap: 0.625rem;
+    justify-content: center;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 300px 300px;
+}
+
+#destination {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    line-height: 1.6;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+.cafe {
+    display: grid;
+    background-size: cover;
+    background-image: url('/resources/images/daan-evers-tKN1WXrzQ3s-unsplash.jpg');
+}
+
+.pizzaria {
+    display: grid;
+    background-size: cover;
+    background-image: url('/resources/images/aldward-castillo-YCrBHi0K4q4-unsplash.jpg');
+}
+
+.flower {
+    display: grid;
+    background-size: cover;
+    background-image: url('/resources/images/ellicia-24HcJhf0u6M-unsplash.jpg');
+}
+
+.tacos {
+    display: grid;
+    background-size: cover;
+    background-image: url('/resources/images/daniel-lee-CNiSyJG-sXQ-unsplash.jpg');
+}
+
+/* Team section */ 
+
+#team {
+    display: flex;
+    flex: 1;
+    height: 40rem;
+    width: 100%;
+    gap: 1rem;
+    justify-content: center;
+}
+
+#badge {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 28rem;
+    height: 32rem;
+    line-height: 2.5rem;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.box {
+    height: 6rem;
+    background-color: black;
+    opacity: 80%;
+}
+
+.ceo {
+    background-size: cover;
+    background-image: url(/resources/images/redd-f-pzOUnvx9c1E-unsplash.jpg);
+}
+
+.ldesigner {
+    background-size: cover;
+    background-image: url(/resources/images/christina-wocintechchat-com-SJvDxw0azqw-unsplash.jpg);
+}
+
+.designer {
+    background-size: cover;
+    background-image: url(/resources/images/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg);
+}
+
+.developer {
+    background-size: cover;
+    background-image: url(/resources/images/amy-hirschi-b3AYk8HKCl0-unsplash.jpg);
+}
+
+.director {
+    background-size: cover;
+    background-image: url(/resources/images/christina-wocintechchat-com-_5_CBVCLBsY-unsplash.jpg);
+}
+
+h5 {
+    color: #7c7777;
+    font-size: 1.3rem;
+}
+
+/* Contact Section */ 
+
+#contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    height: 40rem;
+}
+
+.contact {
+    line-height: 3.6rem;
+}
+ 
+.contact h2 {
+    font-size: 3rem;
+    color: #4a4a4a;
+}
+
+.contact p {
+    font-size: 1.8rem;
+    color: #4a4a4a;
+    
+}
+
+img {
+    height: 25rem;
+}
+
+/* Footer Section */ 
+
+.footer {
+    height: 3rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.footer a {
+    color: white;
+    text-decoration: underline;
+}
+
